@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{154c70d1-1488-4010-a158-42851221c12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\DirectX">
+      <UniqueIdentifier>{01d8e580-0154-43fd-b603-15f6818e7b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{4fb6f6ea-dc2d-45ad-a9d0-0d2722e1d1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{f9558603-f69a-4726-978d-98e739910a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{ff2e5aed-0a83-4094-b3b1-a839a33ee9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\windows">
+      <UniqueIdentifier>{2180e69a-d8c5-4b76-bebe-84e6dcfa9cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os">
+      <UniqueIdentifier>{d05d4451-0ff5-4c08-bc93-f9155a3c89d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm">
+      <UniqueIdentifier>{cc8ffe1f-99b8-4ae3-9e2c-a27905324b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\state">
+      <UniqueIdentifier>{f3484b02-6e6f-4cb9-88c8-da86bcb5a925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{3022bc4e-9e72-467d-9341-97f8ea4000b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\world">
+      <UniqueIdentifier>{f2e27bc5-d13b-453a-afb2-da451c293de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{937012bd-e62c-4de6-8604-87cdc020f1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clock">
+      <UniqueIdentifier>{3fef9032-7f90-4b71-b949-c07b799282cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\importer">
+      <UniqueIdentifier>{e34eda92-7c65-49f4-9d17-a74b3f3331be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{4543d63f-b7e0-4d93-8347-50f197f562d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{e098094b-ad3f-405d-8c8a-c2630f94f79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\sprite">
+      <UniqueIdentifier>{bdcb7de6-c850-4c34-b656-0172bc3a3016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\physics">
+      <UniqueIdentifier>{1885390b-0f83-4326-9735-18566090a775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\ai">
+      <UniqueIdentifier>{84deecde-f852-4aa2-afaf-fee869a8594c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\ai\behavior">
+      <UniqueIdentifier>{d2d99a18-c644-4a2b-8e14-88d99be99799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{95cf3706-3dce-4998-9238-6df49a634e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\levels">
+      <UniqueIdentifier>{8e17681d-08fc-4c9c-b7c9-a418316db7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\maps">
+      <UniqueIdentifier>{bbb52cd9-5602-4c7e-b5bf-3c48ab7855ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\sprite_types">
+      <UniqueIdentifier>{e7868d2a-87a9-49a2-ba06-e6c6a330cfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\main_character">
+      <UniqueIdentifier>{fc385f89-fed3-4bf4-b865-1a1d5b1a302e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\main_character\funnel_web_spider">
+      <UniqueIdentifier>{3d18065f-0ab4-410e-8d19-750a66037e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gsm\ai\pathfinding">
+      <UniqueIdentifier>{4f9425c5-bd35-4274-8a67-4dfe539fcc4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BB_Crash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXGraphics.h">
+      <Filter>Platform\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTextureManager.h">
+      <Filter>Platform\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInput.h">
+      <Filter>Platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsOS.h">
+      <Filter>Platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOS.h">
+      <Filter>os</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>gsm\state</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>gsm\state</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>gsm\state</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGraphics.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="WStringTable.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGUI.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayImage.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderList.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGUI.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFileReader.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFileWriter.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGenerator.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="SparseLayer.h">
+      <Filter>gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledLayer.h">
+      <Filter>gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldLayer.h">
+      <Filter>gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResources.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIConfigProperties.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>clock</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTypes.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="BBEngineConfigImporter.h">
+      <Filter>resources\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="BBImporter.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConfigProperties.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonEventHandler.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEventHandler.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="BBLevelImporter.h">
+      <Filter>resources\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSpriteType.h">
+      <Filter>gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableObject.h">
+      <Filter>gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalProperties.h">
+      <Filter>gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BotRecycler.h">
+      <Filter>gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BotSpawningPool.h">
+      <Filter>gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="BotBehavior.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="DeterministicMovement.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomIntervalMovement.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSpawn.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="RecycledDeath.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="RespawnedDeath.h">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="IllegalArgumentException.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXMapImporter.h">
+      <Filter>resources\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="PoseurSpriteTypeImporter.h">
+      <Filter>resources\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthographicGridPathfinder.h">
+      <Filter>gsm\ai\pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="GridPathfinder.h">
+      <Filter>gsm\ai\pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>gsm\physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXGraphics.cpp">
+      <Filter>Platform\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTextureManager.cpp">
+      <Filter>Platform\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInput.cpp">
+      <Filter>Platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsOS.cpp">
+      <Filter>Platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>gsm\state</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGraphics.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="WStringTable.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGUI.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderList.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGUI.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileReader.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileWriter.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="SparseLayer.cpp">
+      <Filter>gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledLayer.cpp">
+      <Filter>gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResources.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>clock</Filter>
+    </ClCompile>
+    <ClCompile Include="BBEngineConfigImporter.cpp">
+      <Filter>resources\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="BBLevelImporter.cpp">
+      <Filter>resources\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSpriteType.cpp">
+      <Filter>gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>gsm\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="BotRecycler.cpp">
+      <Filter>gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="BotSpawningPool.cpp">
+      <Filter>gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="DeterministicMovement.cpp">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomIntervalMovement.cpp">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSpawn.cpp">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="RecycledDeath.cpp">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="RespawnedDeath.cpp">
+      <Filter>gsm\ai\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXMapImporter.cpp">
+      <Filter>resources\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="PoseurSpriteTypeImporter.cpp">
+      <Filter>resources\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthographicGridPathfinder.cpp">
+      <Filter>gsm\ai\pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>gsm\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BB_Crash.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BB_Crash.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Apps\data\maps\Green\Green.tmx">
+      <Filter>data\maps</Filter>
+    </None>
+    <None Include="..\Apps\data\maps\TopDownDesert\TopDownDesert.tmx">
+      <Filter>data\maps</Filter>
+    </None>
+    <None Include="..\Apps\data\maps\Battle\Battle.tmx">
+      <Filter>data\maps</Filter>
+    </None>
+    <None Include="..\Apps\data\maps\Blue\Blue.tmx">
+      <Filter>data\maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Apps\data\main_character\MainCharacter.xml">
+      <Filter>data\main_character</Filter>
+    </Xml>
+    <Xml Include="..\Apps\data\sprite_types\BeginnerCrash.xml">
+      <Filter>data\sprite_types</Filter>
+    </Xml>
+    <Xml Include="..\Apps\data\levels\Level1.xml">
+      <Filter>data\levels</Filter>
+    </Xml>
+    <Xml Include="..\Apps\data\levels\Level2.xml">
+      <Filter>data\levels</Filter>
+    </Xml>
+    <Xml Include="..\Apps\data\sprite_types\SecondCrash.xml">
+      <Filter>data\sprite_types</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

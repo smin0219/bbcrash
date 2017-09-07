@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (._BB_Crash.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Physics.cpp
+c:\users\m\desktop\bbcrash\bbcrash_project (1)\bbcrash_project\bbcrash_project\bb_crash\physics.cpp(69): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\m\desktop\bbcrash\bbcrash_project (1)\bbcrash_project\bbcrash_project\bb_crash\physics.cpp(70): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\m\desktop\bbcrash\bbcrash_project (1)\bbcrash_project\bbcrash_project\bb_crash\physics.cpp(91): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\m\desktop\bbcrash\bbcrash_project (1)\bbcrash_project\bbcrash_project\bb_crash\physics.cpp(92): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\m\desktop\bbcrash\bbcrash_project (1)\bbcrash_project\bbcrash_project\bb_crash\physics.cpp(94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+  BB_Crash.vcxproj -> C:\Users\M\Desktop\BBCrash\BBCrash_Project (1)\BBCrash_Project\BBCrash_Project\Common\BB_Crash.lib

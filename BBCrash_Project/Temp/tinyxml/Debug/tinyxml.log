@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\M\Desktop\BBCrash\BBCrash_Project (1)\BBCrash_Project\BBCrash_Project\Temp\tinyxml\Debug\) contains files shared from another project (._tinyxml.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  tinyxml.vcxproj -> C:\Users\M\Desktop\BBCrash\BBCrash_Project (1)\BBCrash_Project\BBCrash_Project\Common\tinyxml.lib

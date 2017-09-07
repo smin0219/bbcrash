@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- THIS FILE LISTS ALL THE DATA ASSOCIATED WITH Level 1 FOR THE BUGS GAME -->
+
+<level level_name="Forest">
+  
+  <!-- MAP TO BE USED FOR THIS LEVEL -->
+  <level_map map_dir="data/maps/Green/" map_file="Green.tmx" />
+  
+  <!-- COMPLETE LIST OF SPRITE TYPES USED FOR THIS LEVEL TO BE LOADED AT LEVEL LOAD TIME -->
+  <level_sprite_types sprite_types_dir="data/sprite_types/" sprite_types_file="BeginnerCrash.xml" />
+  
+   <level_player_types>
+    <player type="deadly_spider"  sprite_type="camel_spider"  init_sprite_state="WALKING"  MOVING="random_interval" DYING="respawn" SPAWNING="random" max_velocity="5"/>
+  </level_player_types>  
+    
+  <level_tool_types>
+  
+  <Balls type="little_balls" sprite_type="balls" init_sprite_state="IDLE"/>
+  
+     </level_tool_types>  
+
+    
+  <!-- THESE ARE THE BOT TYPES THE LEVEL WILL BE SPAWNING -->
+  
+  <level_bot_types>
+   
+      <bot type="spiderman"    sprite_type="funnel_web_spider" MOVING="random_interval" DYING="respawn" SPAWNING="random" max_velocity="5"/>
+
+  </level_bot_types>
+  
+  <!-- INITIAL BOTS WHEN THE LEVEL STARTS -->
+  <bots_list>
+  
+    <bot type="spiderman"  init_x="650"  init_y="50" init_vx="1" init_vy="1" init_bot_state="MOVING" init_sprite_state="WALKING" />    
+  </bots_list>
+  <!-- WE CAN EVEN SPECIFY BOT SPAWN LOCATIONS -->
+  <spawning_pools>
+   
+   <spawning_pool x="0"  y="0"   type="funnel_web_spider"   interval_time="50000"   interval_type="scheduled" />
+  </spawning_pools>
+</level>

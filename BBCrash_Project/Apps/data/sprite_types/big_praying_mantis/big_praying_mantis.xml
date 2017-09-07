@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+    <image_config>SEPARATED</image_config>
+    <width>128</width>
+    <height>128</height>
+    <images_list>
+        <image_file id="0" file_name="praying_mantis_ATTACK_1_rohit_kaushik.png"/>
+        <image_file id="1" file_name="praying_mantis_ATTACK_2_rohit_kaushik.png"/>
+        <image_file id="2" file_name="praying_mantis_ATTACK_3_rohit_kaushik.png"/>
+        <image_file id="3" file_name="praying_mantis_ATTACK_4_rohit_kaushik.png"/>
+        <image_file id="4" file_name="praying_mantis_ATTACK_5_rohit_kaushik.png"/>
+		<image_file id="5" file_name="praying_mantis_DANCE_1_rohit_kaushik.png"/>
+        <image_file id="6" file_name="praying_mantis_DANCE_2_rohit_kaushik.png"/>
+        <image_file id="7" file_name="praying_mantis_DANCE_3_rohit_kaushik.png"/>
+        <image_file id="8" file_name="praying_mantis_DANCE_4_rohit_kaushik.png"/>
+        <image_file id="9" file_name="praying_mantis_DANCE_5_rohit_kaushik.png"/>
+		<image_file id="10" file_name="praying_mantis_DANCE_6_rohit_kaushik.png"/>
+        <image_file id="11" file_name="praying_mantis_DANCE_7_rohit_kaushik.png"/>
+        <image_file id="12" file_name="praying_mantis_DEATH_1_rohit_kaushik.png"/>
+        <image_file id="13" file_name="praying_mantis_DEATH_2_rohit_kaushik.png"/>
+        <image_file id="14" file_name="praying_mantis_DEATH_3_rohit_kaushik.png"/>
+        <image_file id="15" file_name="praying_mantis_DEATH_4_rohit_kaushik.png"/>
+		<image_file id="16" file_name="praying_mantis_DEATH_5_rohit_kaushik.png"/>
+        <image_file id="17" file_name="praying_mantis_IDLE_1_rohit_kaushik.png"/>
+        <image_file id="18" file_name="praying_mantis_IDLE_2_rohit_kaushik.png"/>
+        <image_file id="19" file_name="praying_mantis_IDLE_3_rohit_kaushik.png"/>
+        <image_file id="20" file_name="praying_mantis_IDLE_4_rohit_kaushik.png"/>
+        <image_file id="21" file_name="praying_mantis_IDLE_5_rohit_kaushik.png"/>
+		<image_file id="22" file_name="praying_mantis_RUN_1_rohit_kaushik.png"/>
+        <image_file id="23" file_name="praying_mantis_RUN_2_rohit_kaushik.png"/>
+        <image_file id="24" file_name="praying_mantis_RUN_3_rohit_kaushik.png"/>
+        <image_file id="25" file_name="praying_mantis_RUN_4_rohit_kaushik.png"/>
+        <image_file id="26" file_name="praying_mantis_RUN_5_rohit_kaushik.png"/>
+        <image_file id="27" file_name="praying_mantis_RUN_6_rohit_kaushik.png"/>
+        <image_file id="28" file_name="praying_mantis_RUN_7_rohit_kaushik.png"/>
+		<image_file id="29" file_name="praying_mantis_RUN_8_rohit_kaushik.png"/>
+        <image_file id="30" file_name="praying_mantis_RUN_9_rohit_kaushik.png"/>
+        <image_file id="31" file_name="praying_mantis_WALK_1_rohit_kaushik.png"/>
+        <image_file id="32" file_name="praying_mantis_WALK_2_rohit_kaushik.png"/>
+        <image_file id="33" file_name="praying_mantis_WALK_3_rohit_kaushik.png"/>
+        <image_file id="34" file_name="praying_mantis_WALK_4_rohit_kaushik.png"/>
+        <image_file id="35" file_name="praying_mantis_WALK_5_rohit_kaushik.png"/>
+        <image_file id="36" file_name="praying_mantis_WALK_6_rohit_kaushik.png"/>
+        <image_file id="37" file_name="praying_mantis_WALK_7_rohit_kaushik.png"/>
+        <image_file id="38" file_name="praying_mantis_WALK_8_rohit_kaushik.png"/>
+    </images_list>
+    <animations_list>
+        <animation_state>
+            <state>IDLE</state>
+            <animation_sequence>
+                <pose image_id="17" duration="12"/>
+                <pose image_id="18" duration="4"/>
+                <pose image_id="19" duration="4"/>
+                <pose image_id="20" duration="4"/>
+                <pose image_id="21" duration="4"/>
+                <pose image_id="20" duration="4"/>
+                <pose image_id="19" duration="4"/>
+                <pose image_id="21" duration="4"/>
+                <pose image_id="17" duration="12"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>WALKING</state>
+            <animation_sequence>
+                <pose image_id="31" duration="2"/>
+                <pose image_id="32" duration="2"/>
+                <pose image_id="33" duration="2"/>
+                <pose image_id="34" duration="2"/>
+                <pose image_id="35" duration="2"/>
+                <pose image_id="36" duration="2"/>
+                <pose image_id="37" duration="2"/>
+                <pose image_id="38" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>RUNNING</state>
+            <animation_sequence>
+                <pose image_id="23" duration="2"/>
+                <pose image_id="24" duration="2"/>
+                <pose image_id="25" duration="2"/>
+                <pose image_id="26" duration="2"/>
+                <pose image_id="27" duration="2"/>
+                <pose image_id="28" duration="2"/>
+                <pose image_id="29" duration="2"/>
+                <pose image_id="30" duration="2"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>ATTACKING</state>
+            <animation_sequence>
+                <pose image_id="0" duration="12"/>
+                <pose image_id="1" duration="4"/>
+                <pose image_id="2" duration="4"/>
+                <pose image_id="3" duration="4"/>
+                <pose image_id="4" duration="8"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DANCING</state>
+            <animation_sequence>
+                <pose image_id="5" duration="12"/>
+                <pose image_id="6" duration="7"/>
+                <pose image_id="7" duration="7"/>
+				<pose image_id="6" duration="7"/>
+                <pose image_id="7" duration="7"/>
+                <pose image_id="8" duration="7"/>
+                <pose image_id="9" duration="7"/>
+                <pose image_id="8" duration="7"/>
+                <pose image_id="9" duration="7"/>
+                <pose image_id="10" duration="11"/>
+                <pose image_id="11" duration="11"/>
+                <pose image_id="10" duration="11"/>
+                <pose image_id="11" duration="11"/>
+            </animation_sequence>
+        </animation_state>
+		<animation_state>
+            <state>DYING</state>
+            <animation_sequence>
+                <pose image_id="12" duration="12"/>
+                <pose image_id="13" duration="5"/>
+                <pose image_id="14" duration="5"/>
+                <pose image_id="15" duration="4"/>
+                <pose image_id="16" duration="15"/>
+            </animation_sequence>
+        </animation_state>
+    </animations_list>  
+</sprite_type>
